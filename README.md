@@ -1,20 +1,25 @@
-# Cloud Shell
+# Terraform Environments on Azure
 
-## Overview
+Reference guide to common reference Terraform environments on Azure.
 
-Text
+## Environments
 
-### Pros
+* [Cloud Shell](markdown/cloudshell.md)
 
-* List
+    The Cloud Shell is Fast and lightweight, has all of the required binaries and a built in editor. Great for quick tests or demos when working alone.
 
-### Cons
+* [Windows Subsystem for Linux (WSL) and Visual Studio Code](markdown/local.md)
 
-* List
+    [FUTURE] Local user environment for power users. Additional info for using GitHub and remote state.
 
-### Example
+* [Config Management Server with system assigned Managed Identity](markdown/identity.md)
 
-1. Authenticate to GitHub
+    [FUTURE] Deploy a VM into Azure and give the managed identity the .
 
-    The Cloud Shell includes `gh`, the GitHub CLI. Autenticate to GitHub
-Text
+* [GitHub Actions](markdown/github_actions_managed_identity.md)
+
+    [FUTURE] GitHub Action with a user assigned managed identity and OpenID Connect (OIDC) authentication. (Preview)
+
+* [GitHub Actions with API Permissions](markdown/github_actions_app_id.md)
+
+    Add text. Service principal with OIDC. Optional API permissions in the app IDs manifest for azuread.
